@@ -19,7 +19,7 @@ def fetchdata(city):
         text = url.text
 
         shuju = re.findall('<td>(.*?)</td>', text, re.S)  # 正则pm2.5等污染物数据
-        data_time = re.findall("\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}", text, re.S)  # 正则寻找当前时间 例如，2016-04-13 20:10:00
+        data_time = re.findall("\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}", text, re.S)  # 正则寻找当前时间 例如，2018-04-07 20:10:00
 
 
         i = 1
