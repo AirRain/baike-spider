@@ -14,5 +14,13 @@ def eBtnGuess(event):
     global num
     global running
     if running:
+        val_a = int(entry_a.get())
+        if val_a == number:
+            labelqval("答对了")
+            num += 1
+            running = False
+            numGuess()
+        elif val_a < number:
+            
         
 
