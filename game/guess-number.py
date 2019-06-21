@@ -21,6 +21,18 @@ def eBtnGuess(event):
             running = False
             numGuess()
         elif val_a < number:
+            if val_a > nminn:
+                nminn = val_a
+                num += 1
+                labelqval("小了哦，请输入范围内的数")
+            else:
+                labelqval('答对了') 
+def numGuess():
+    if num == 1:
+        labelqval('一次答对')
+
+
+def labelqval(vText):
             
         
-
+entry_a = tk.Entry(root,width = '80')
