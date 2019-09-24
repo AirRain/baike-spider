@@ -1,4 +1,4 @@
-bd_js_code = ''
+bd_js_code = '''
 function a(r) {
         if (Array.isArray(r)) {
             for (var o = 0, t = Array(r.length); o < r.length; o++)
@@ -48,10 +48,10 @@ function a(r) {
         p %= 1e6,
         p.toString() + "." + (p ^ m)
     }
-''
+'''
 
 
-gg_js_code = ''
+gg_js_code = '''
     function TL(a) {
         var k = "";
         var b = 406644;
@@ -87,4 +87,4 @@ gg_js_code = ''
         }
         return a
     }
-''
+'''
