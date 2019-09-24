@@ -12,7 +12,7 @@ from fuzzywuzzy import process
 class GUI(QWidget):
 	def __init__(self, parent=None):
 		super().__init__()
-		self.setWindowTitle('鲁迅名言查询-微信公众号:Charles的皮卡丘')
+		self.setWindowTitle('鲁迅名言查询')
 		self.setWindowIcon(QIcon('data/icon.jpg'))
 		self.label1 = QLabel('句子:')
 		self.line_edit = QLineEdit()
