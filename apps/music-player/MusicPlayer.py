@@ -16,7 +16,7 @@ class musicPlayer(QWidget):
 		self.__initialize()
 	'''初始化'''
 	def __initialize(self):
-		self.setWindowTitle('音乐播放器v0.1.0-Charles的皮卡丘')
+		self.setWindowTitle('音乐播放器v0.1.0-airrain')
 		self.setWindowIcon(QIcon('icon.ico'))
 		self.songs_list = []
 		self.song_formats = ['mp3', 'm4a', 'flac', 'wav', 'ogg']
