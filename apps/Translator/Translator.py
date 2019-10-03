@@ -134,7 +134,7 @@ Function:
 class Demo(QWidget):
 	def __init__(self, parent=None):
 		super().__init__()
-		self.setWindowTitle('翻译软件-公众号: Charles的皮卡丘')
+		self.setWindowTitle('翻译软件: airrain')
 		self.setWindowIcon(QIcon('data/icon.jpg'))
 		self.Label1 = QLabel('原文')
 		self.Label2 = QLabel('译文')
